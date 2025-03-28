@@ -19,7 +19,6 @@ app.use(cors());
 // Conexión a MongoDB
 mongoose.connect(
   'mongodb+srv://axel123:axel123@clustervite.q7s1q.mongodb.net/dbpwa?retryWrites=true&w=majority',
-  { useNewUrlParser: true}
 )
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error(err));
