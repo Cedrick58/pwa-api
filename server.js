@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const webpush = require('web-push');
-const keys = require('../../src/keys.json');
+const keys = require('./keys.json');
 const path = require('path');
 
 
